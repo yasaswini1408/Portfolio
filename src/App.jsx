@@ -1,9 +1,10 @@
+import Navbar from "./components/Navbar.jsx"
 function App() {
-  return (
+  return(
     <div className="bg-[#0d0d1a] text-white min-h-screen">
-      <h1 className="text-3xl text-center p-10">Portfolio coming soon 🚀</h1>
+      <Navbar></Navbar>
     </div>
-  )
+  );
 }
 
 export default App
