@@ -1,4 +1,6 @@
 import profilePic from "../assets/profile-pic.png"
+import {FaGithub,FaLinkedin,FaEnvelope} from "react-icons/fa"
+import {SiCodechef,SiLeetcode} from "react-icons/si"
 function Home() {
     return (
         <section className="px-10 py-16">
@@ -18,6 +20,23 @@ function Home() {
                     <div className="flex gap-4 mt-6">
                         <button className="bg-purple-600 px-6 py-3 rounded-lg">View my work</button>
                         <button className="border border-white px-6 py-3 rounded-lg">Contact Me</button>
+                    </div>
+                    <div className="flex gap-4 mt-6">
+                        <a href="https://github.com/yasaswini1408" target="_blank" className="text-gray-400 hover:text-white text-2xl transition-colors">
+                            <FaGithub />
+                        </a>
+                        <a href="https://www.linkedin.com/in/yasaswini-samala-8007022a6/" target="_blank" className="text-gray-400 hover:text-white text-2xl transition-colors">
+                            <FaLinkedin />
+                        </a>
+                        <a href="https://www.codechef.com/users/yasaswini_05" target="_blank" className="text-gray-400 hover:text-white text-2xl transition-colors">
+                            <SiCodechef />
+                        </a>
+                        <a href="https://leetcode.com/u/yasaswini14/" target="_blank" className="text-gray-400 hover:text-white text-2xl transition-colors">
+                            <SiLeetcode />
+                        </a>
+                        <a href="mailto:yasaswinisamala2005@gmail.com" className="text-gray-400 hover:text-white text-2xl transition-colors">
+                            <FaEnvelope />
+                        </a>    
                     </div>
                 </div>
 
@@ -46,8 +65,23 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="py-20">
-                stats
+            <div className="grid grid-cols-4 gap-4 mt-12 border border-gray-700 rounded-xl p-6">
+                <div className="text-center">
+                    <p className="text-3xl font-bold text-purple-400">10+</p>
+                    <p className="text-gray-400 text-sm">Projects Built</p>
+                </div>
+                <div className="text-center">
+                    <p className="text-3xl font-bold text-purple-400">1000+</p>
+                    <p className="text-gray-400 text-sm">Problems Solved</p>
+                </div>
+                <div className="text-center">
+                    <p className="text-3xl font-bold text-purple-400">9.26</p>
+                    <p className="text-gray-400 text-sm">CGPA</p>
+                </div>
+                <div className="text-center">
+                    <p className="text-gray-400 text-sm">Class of</p>
+                    <p className="text-3xl font-bold text-purple-400">2027</p>
+                </div>
             </div>
         </section>
     );
