@@ -3,7 +3,7 @@ function Skills(){
         <section>
             <div className="grid grid-cols-2 gap-4">
                 <div>
-                    <h2>Skills & Tools</h2>
+                    <h1>Skills & Tools</h1>
                     <div className="flex flex-wrap gap-3">
                         <p>Languages</p>
                         <div className="flex flex-wrap gap-3">

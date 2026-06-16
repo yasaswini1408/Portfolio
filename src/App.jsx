@@ -11,9 +11,9 @@ function App() {
       <About></About>
       <Skills></Skills>
       <Projects></Projects>
-      <Achivements></Achivements>
+      {/* <Achivements></Achivements>
       <Certifications></Certifications>
-      <Connect></Connect>
+      <Connect></Connect> */}
     </div>
   );
 }
