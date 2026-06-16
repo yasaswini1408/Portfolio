@@ -37,8 +37,9 @@ function About(){
                     </div>
                 </div>
 
-                <div className="flex justify-center items-center">
-                    <img src={profilePic} alt="profile" className="rounded-2xl w-80 h-80 object-cover"/>
+                <div>
+                    {/* <img src={profilePic} alt="profile" className="rounded-2xl w-80 h-80 object-cover"/> */}
+                    this is to fill the journey or the roadmap
                 </div>
             </div>
         </section>
