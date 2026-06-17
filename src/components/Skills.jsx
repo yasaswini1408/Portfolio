@@ -1,6 +1,6 @@
-import { SiCplusplus, SiC, SiPython, SiJavascript, SiHtml5, SiCss, SiReact, SiExpress, SiNodedotjs, SiMongodb, SiMysql, SiGit, SiGithub, SiPostman, SiFigma, SiVercel } from "react-icons/si";
-import { VscVscode } from "react-icons/vsc";
-import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
+import {SiCplusplus,SiC,SiPython,SiJavascript,SiHtml5,SiCss,SiReact,SiExpress,SiNodedotjs,SiMongodb,SiMysql,SiGit,SiGithub,SiPostman,SiFigma,SiVercel} from "react-icons/si";
+import {VscVscode} from "react-icons/vsc";
+import {PieChart,Pie,Cell,ResponsiveContainer,LineChart,Line,BarChart,Bar} from "recharts";
 
 const languageData = [
     { name: "JavaScript", value: 52, color: "#facc15" },
@@ -9,6 +9,25 @@ const languageData = [
     { name: "C++", value: 7, color: "#a855f7" },
     { name: "Other", value: 8, color: "#9ca3af" },
 ];
+const streakData = [
+    { day: 1, value: 2 },
+    { day: 2, value: 4 },
+    { day: 3, value: 3 },
+    { day: 4, value: 6 },
+    { day: 5, value: 5 },
+    { day: 6, value: 8 },
+    { day: 7, value: 7 },
+];
+const contributionsData = [
+    { day: 1, value: 3 },
+    { day: 2, value: 7 },
+    { day: 3, value: 4 },
+    { day: 4, value: 9 },
+    { day: 5, value: 5 },
+    { day: 6, value: 8 },
+    { day: 7, value: 6 },
+];
+
 function Skills() {
     return (
         <section className="px-10 py-16 border-t border-gray-800">
@@ -112,12 +131,33 @@ function Skills() {
                         </button>
                     </div>
                     <div>
-                        <p className="text-gray-400 text-sm mb-1">🔁 Contribution Streak</p>
-                        <p className="text-3xl font-bold text-purple-400 mb-6">24 <span className="text-sm text-gray-400">days</span></p>
+                        <div className="flex justify-between items-center mb-6">
+                            <div>
+                                <p className="text-gray-400 text-sm mb-1">🔁 Contribution Streak</p>
+                                <p className="text-3xl font-bold text-purple-400">24 <span className="text-sm text-gray-400">days</span></p>
+                            </div>
+                            <div style={{ width: 100, height: 50 }}>
+                                <ResponsiveContainer>
+                                    <LineChart data={streakData}>
+                                        <Line type="monotone" dataKey="value" stroke="#4ade80" strokeWidth={2} dot={false} />
+                                    </LineChart>
+                                </ResponsiveContainer>
+                            </div>
+                        </div>
 
-                        <p className="text-gray-400 text-sm mb-1">📊 Total Contributions</p>
-                        <p className="text-3xl font-bold text-purple-400 mb-6">487</p>
-
+                        <div className="flex justify-between items-center mb-6">
+                            <div>
+                                <p className="text-gray-400 text-sm mb-1">📊 Total Contributions</p>
+                                <p className="text-3xl font-bold text-purple-400">487</p>
+                            </div>
+                            <div style={{ width: 100, height: 50 }}>
+                                <ResponsiveContainer>
+                                    <BarChart data={contributionsData}>
+                                        <Bar dataKey="value" fill="#a855f7" radius={[3, 3, 0, 0]} />
+                                    </BarChart>
+                                </ResponsiveContainer>
+                            </div>
+                        </div>
                         <p className="text-gray-300 font-semibold mb-3">Top Languages</p>
                         <div className="flex items-center gap-6">
                             <div style={{ width: 120, height: 120 }}>
