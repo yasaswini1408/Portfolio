@@ -5,6 +5,7 @@ import Skills from "./components/Skills.jsx"
 import Projects from "./components/Projects.jsx"
 import Achievements from "./components/Achievements.jsx"
 import Certifications from "./components/Certifications.jsx"
+import Leadership from "./components/Leadership.jsx"
 function App() {
   return(
     <div className="bg-[#0d0d1a] text-white min-h-screen pt-20">
@@ -14,7 +15,7 @@ function App() {
       <Skills></Skills>
       <Projects></Projects>
       <Achievements></Achievements>
-      {/* <Leadership></Leadership> */}
+      <Leadership></Leadership>
       <Certifications></Certifications>
       {/* <Connect></Connect> */}
     </div>
