@@ -98,6 +98,92 @@ function Projects(){
                     </div>
                 </div>
 
+                {/* project four */}
+                <div className="bg-[#11111f] border border-gray-800 rounded-xl overflow-hidden">
+                    <div className="bg-black">
+                        <img
+                            src="/projects/flavors-of-india.png"
+                            alt="Flavors of India Preview"
+                            className="w-full object-contain"
+                        />
+                    </div>
+                    <div className="p-5">
+                        <div className="flex justify-between items-center mb-3">
+                            <h2 className="font-bold text-lg">Flavors of India</h2>
+                            <span className="bg-green-900 text-green-400 text-xs px-2 py-1 rounded">Frontend</span>
+                        </div>
+                        <p className="text-gray-400 text-sm mb-4">
+                            A responsive food ordering web application. Features menu browsing, dynamic cart management, and a structured checkout interface.                                </p>
+                        <div className="flex flex-wrap gap-2 mb-4">
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">HTML5</span>
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">CSS</span>
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">Javascript</span>
+                        </div>
+                        <div className="flex gap-4 text-sm">
+                            <a href="https://food-ordering-website-blue.vercel.app/" target="_blank" className="text-purple-400">Live Demo ↗</a>
+                            <a href="https://github.com/yasaswini1408/Food_Ordering_Website" target="_blank" className="text-purple-400">GitHub ↗</a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* project five */}
+                <div className="bg-[#11111f] border border-gray-800 rounded-xl overflow-hidden">
+                    <div className="bg-black">
+                        <img
+                            src="/projects/visit-vizag.png"
+                            alt="Visit Vizag Preview"
+                            className="w-full object-contain"
+                        />
+                    </div>
+                    <div className="p-5">
+                        <div className="flex justify-between items-center mb-3">
+                            <h2 className="font-bold text-lg">Visit Vizag</h2>
+                            <span className="bg-green-900 text-green-400 text-xs px-2 py-1 rounded">Frontend</span>
+                        </div>
+                        <p className="text-gray-400 text-sm mb-4">
+                            VisitVizag is a comprehensive tourism platform designed to enhance the travel experience in Visakhapatnam.
+                        </p>
+                        <div className="flex flex-wrap gap-2 mb-4">
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">HTML5</span>
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">CSS</span>
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">Javascript</span>
+                        </div>
+                        <div className="flex gap-4 text-sm">
+                            <a href="https://visitvizag.github.io/visitvizag/" target="_blank" className="text-purple-400">Live Demo ↗</a>
+                            <a href="https://github.com/yasaswini1408/Visit_Vizag" target="_blank" className="text-purple-400">GitHub ↗</a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* project six*/}
+                <div className="bg-[#11111f] border border-gray-800 rounded-xl overflow-hidden">
+                    <div className="bg-black">
+                        <img
+                            src="/projects/to-do.png"
+                            alt="To-Do Preview"
+                            className="w-full object-contain"
+                        />
+                    </div>
+                    <div className="p-5">
+                        <div className="flex justify-between items-center mb-3">
+                            <h2 className="font-bold text-lg">To-Do</h2>
+                            <span className="bg-green-900 text-green-400 text-xs px-2 py-1 rounded">Frontend</span>
+                        </div>
+                        <p className="text-gray-400 text-sm mb-4">
+                            A clean and interactive application that helps users manage daily tasks with a dynamic progress tracker.
+                        </p>
+                        <div className="flex flex-wrap gap-2 mb-4">
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">HTML5</span>
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">CSS</span>
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">Javascript</span>
+                        </div>
+                        <div className="flex gap-4 text-sm">
+                            <a href="https://todo-app-kappa-ten-33.vercel.app/" target="_blank" className="text-purple-400">Live Demo ↗</a>
+                            <a href="https://github.com/yasaswini1408/TODO" target="_blank" className="text-purple-400">GitHub ↗</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
     );
