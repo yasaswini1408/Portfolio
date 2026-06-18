@@ -11,8 +11,12 @@ function Projects(){
                 
                 {/* project one */}
                 <div className="bg-[#11111f] border border-gray-800 rounded-xl overflow-hidden">
-                    <div className="bg-black h-32 flex items-center justify-center">
-                        <p className="text-gray-500 text-sm">Project Preview</p>
+                    <div className="bg-black">
+                        <img
+                            src="/projects/note-hive.png"
+                            alt="NoteHive Preview"
+                            className="w-full object-contain"
+                        />
                     </div>
                     <div className="p-5">
                         <div className="flex justify-between items-center mb-3">
@@ -37,8 +41,12 @@ function Projects(){
 
                 {/* project two */}
                 <div className="bg-[#11111f] border border-gray-800 rounded-xl overflow-hidden">
-                    <div className="bg-black h-32 flex items-center justify-center">
-                        <p className="text-gray-500 text-sm">Project Preview</p>
+                    <div className="bg-black">
+                        <img
+                            src="/projects/tiny-shift.png"
+                            alt="TinyShift Preview"
+                            className="w-full object-contain"
+                        />
                     </div>
                     <div className="p-5">
                         <div className="flex justify-between items-center mb-3">
@@ -63,8 +71,12 @@ function Projects(){
 
                 {/* project three */}
                 <div className="bg-[#11111f] border border-gray-800 rounded-xl overflow-hidden">
-                    <div className="bg-black h-32 flex items-center justify-center">
-                        <p className="text-gray-500 text-sm">Project Preview</p>
+                    <div className="bg-black">
+                        <img
+                            src="/projects/campus-connect.png"
+                            alt="Campus Connect Preview"
+                            className="w-full object-contain"
+                        />
                     </div>
                     <div className="p-5">
                         <div className="flex justify-between items-center mb-3">

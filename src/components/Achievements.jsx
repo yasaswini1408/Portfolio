@@ -23,17 +23,17 @@ function Achievements(){
 
                     <div className="bg-[#1a1a2e] border border-gray-700 rounded-xl p-6 min-h-[280px]">
                         <p className="text-purple-400 text-3xl font-bold mb-3">03</p>
-                        <h2 className="text-white text-lg font-semibold mb-2">LeetCode</h2>
+                        <h2 className="text-white text-lg font-semibold mb-2">3-Star Coder – CodeChef</h2>
                         <p className="text-gray-400 text-sm">
-                            Achieved a maximum rating of 1778 on LeetCode with 500+ problems solved, reflecting strong Data Structures & Algorithms proficiency.
+                            Reached a 3-star rating with a maximum of 1611 on CodeChef, solving 850+ problems across both competitive programming platforms.
                         </p>
                     </div>
 
                     <div className="bg-[#1a1a2e] border border-gray-700 rounded-xl p-6 min-h-[280px]">
                         <p className="text-purple-400 text-3xl font-bold mb-3">04</p>
-                        <h2 className="text-white text-lg font-semibold mb-2">3-Star Coder – CodeChef</h2>
+                        <h2 className="text-white text-lg font-semibold mb-2">LeetCode</h2>
                         <p className="text-gray-400 text-sm">
-                            Reached a 3-star rating with a maximum of 1611 on CodeChef, solving 850+ problems across both competitive programming platforms.
+                            Achieved a maximum rating of 1778 on LeetCode with 500+ problems solved, reflecting strong Data Structures & Algorithms proficiency.
                         </p>
                     </div>
 
