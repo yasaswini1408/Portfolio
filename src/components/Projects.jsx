@@ -1,91 +1,92 @@
-import NoteHive from "../assets/note-hive.png";
-import TinyShift from "../assets/tiny-shift.png"; 
-import CampusConnect from "../assets/campus-connect.png"; 
 function Projects(){
     return(
-        <section>
-            <h1>Featured Projects</h1>
-            {/* project one */}
-            <div>
-                <div className="flex flex-wrap gap-3">
-                    <span>NoteHive</span>
-                    <span>FullStack</span>
-                </div>
-                <div className="grid grid-cols-2">
-                    <div>
-                        <img src={NoteHive} alt="NH" />
-                    </div>
-                    <div>
-                        <div>
-                        <p>Secure Notes Rest API with JWT auth, bycrpt encryption, searching, pagination and sorting.</p>
-                        </div>
-                        <div className="flex flex-wrap gap-3">
-                            <span>Node.js</span>
-                            <span>Express.js</span>
-                            <span>MongoDB</span>
-                            <span>JWT</span>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div className="flex flex-wrap gap-3">
-                    <a href="https://notehive365.netlify.app/" target="_blank">Live Demo</a>
-                    <a href="https://github.com/yasaswini1408/NoteHive" target="_blank">GitHub</a>
-                </div>
+        <section className="px-10 py-16 border-t border-gray-800">
+            <div className="flex justify-between items-center mb-8">
+                <h1 className="text-2xl font-bold">Projects</h1>
+                <button className="border border-purple-500 text-purple-400 px-3 py-1 rounded-lg text-sm">
+                    View All Projects
+                </button>
             </div>
-            {/* project two */}
-            <div>
-                <div className="flex flex-wrap gap-3">
-                    <span>TinyShift</span>
-                    <span>AI powered</span>
-                </div>
-                <div className="grid grid-cols-2">
-                    <div>
-                        <img src={TinyShift} alt="TinyShift" />
+            <div className="grid grid-cols-3 gap-6">
+                
+                {/* project one */}
+                <div className="bg-[#11111f] border border-gray-800 rounded-xl overflow-hidden">
+                    <div className="bg-black h-32 flex items-center justify-center">
+                        <p className="text-gray-500 text-sm">Project Preview</p>
                     </div>
-                    <div>
-                        <p>AI powered activity assistant with real time weather data and Groq AI to give personalized suggestions.</p>
-                        <div className="flex flex-wrap gap-3">
-                            <span>Node.js</span>
-                            <span>Groq API</span>
-                            <span>OpenWeatherMap</span>
-                            <span>Vercel</span>
+                    <div className="p-5">
+                        <div className="flex justify-between items-center mb-3">
+                            <h2 className="font-bold text-lg">NoteHive</h2>
+                            <span className="bg-green-900 text-green-400 text-xs px-2 py-1 rounded">Full Stack</span>
+                        </div>
+                        <p className="text-gray-400 text-sm mb-4">
+                            Secure Notes REST API with JWT auth, bcrypt encryption, search, pagination and sorting.
+                        </p>
+                        <div className="flex flex-wrap gap-2 mb-4">
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">Node.js</span>
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">Express.js</span>
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">MongoDB</span>
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">JWT</span>
+                        </div>
+                        <div className="flex gap-4 text-sm">
+                            <a href="https://notehive365.netlify.app/" target="_blank" className="text-purple-400">Live Demo ↗</a>
+                            <a href="https://github.com/yasaswini1408/NoteHive" target="_blank" className="text-purple-400">GitHub ↗</a>
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-wrap gap-3">
-                    <a href="https://tiny-shift.vercel.app/" target="_blank">Live Demo</a>
-                    <a href="https://github.com/yasaswini1408/TinyShift" target="_blank">GitHub</a>
-                </div>
-            </div>
-            {/* project three */}
-            <div>
-                <div className="flex flex-wrap gap-3">
-                    <span>Campus Connect</span>
-                    <span>Full Stack</span>
-                </div>
-                <div className="grid grid-cols-2">
-                    <div>
-                        <img src={CampusConnect} alt="Campus Connect" />
-                    </div>
-                    <div>
-                        <p>Campus communication platform with event & user management APIs and responsive UI.</p>
-                        <div className="flex flex-wrap gap-3">
-                            <span>HTML5</span>
-                            <span>CSS</span>
-                            <span>Javascript</span>
-                            <span>Node.js</span>
-                            <span>Express.js</span>
-                        </div>
-                    </div>
-                </div>
-                <div className="flex flex-wrap gap-3">
-                    <a href="https://campus-connect-qpma.onrender.com/" target="_blank">Live Demo</a>
-                    <a href="https://github.com/yasaswini1408/Campus_Connect" target="_blank">GitHub</a>
-                </div>
-            </div>
 
+                {/* project two */}
+                <div className="bg-[#11111f] border border-gray-800 rounded-xl overflow-hidden">
+                    <div className="bg-black h-32 flex items-center justify-center">
+                        <p className="text-gray-500 text-sm">Project Preview</p>
+                    </div>
+                    <div className="p-5">
+                        <div className="flex justify-between items-center mb-3">
+                            <h2 className="font-bold text-lg">TinyShift</h2>
+                            <span className="bg-green-900 text-green-400 text-xs px-2 py-1 rounded">AI Powered</span>
+                        </div>
+                        <p className="text-gray-400 text-sm mb-4">
+                            AI activity assistant with real time weather data and Groq AI to give personalized suggestions.
+                        </p>
+                        <div className="flex flex-wrap gap-2 mb-4">
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">Node.js</span>
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">Groq API</span>
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">OpenWeatherMap</span>
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">Vercel</span>
+                        </div>
+                        <div className="flex gap-4 text-sm">
+                            <a href="https://tiny-shift.vercel.app/" target="_blank" className="text-purple-400">Live Demo ↗</a>
+                            <a href="https://github.com/yasaswini1408/TinyShift" target="_blank" className="text-purple-400">GitHub ↗</a>
+                        </div>
+                    </div>
+                </div>
 
+                {/* project three */}
+                <div className="bg-[#11111f] border border-gray-800 rounded-xl overflow-hidden">
+                    <div className="bg-black h-32 flex items-center justify-center">
+                        <p className="text-gray-500 text-sm">Project Preview</p>
+                    </div>
+                    <div className="p-5">
+                        <div className="flex justify-between items-center mb-3">
+                            <h2 className="font-bold text-lg">Campus Connect</h2>
+                            <span className="bg-green-900 text-green-400 text-xs px-2 py-1 rounded">Full Stack</span>
+                        </div>
+                        <p className="text-gray-400 text-sm mb-4">
+                            Campus communication platform with event & user management APIs and responsive UI.
+                        </p>
+                        <div className="flex flex-wrap gap-2 mb-4">
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">Javascript</span>
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">Node.js</span>
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-2 py-1 rounded text-xs">Express.js</span>
+                        </div>
+                        <div className="flex gap-4 text-sm">
+                            <a href="https://campus-connect-qpma.onrender.com/" target="_blank" className="text-purple-400">Live Demo ↗</a>
+                            <a href="https://github.com/yasaswini1408/Campus_Connect" target="_blank" className="text-purple-400">GitHub ↗</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </section>
     );
 }

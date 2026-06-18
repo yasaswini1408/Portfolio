@@ -37,9 +37,35 @@ function About(){
                     </div>
                 </div>
 
-                <div>
-                    {/* <img src={profilePic} alt="profile" className="rounded-2xl w-80 h-80 object-cover"/> */}
-                    this is to fill the journey or the roadmap
+                <div className="relative pl-8 border-l-2 border-gray-700">
+                    <div className="relative mb-10">
+                        <div className="absolute -left-[41px] top-1 w-4 h-4 rounded-full bg-purple-500 border-4 border-[#0d0d1a]"></div>
+                        <div className="bg-[#1a1a2e] border border-gray-700 rounded-lg p-5">
+                            <h3 className="text-white font-bold text-lg mb-1">Bachelor of Technology in Computer Science</h3>
+                            <p className="text-gray-400 text-sm mb-1">Vignan's Institute of Information Technology</p>
+                            <p className="text-gray-500 text-sm mb-3">2023 – Present</p>
+                            <p className="text-purple-400 font-bold">CGPA: 9.26</p>
+                        </div>
+                    </div>
+                    <div className="relative mb-10">
+                        <div className="absolute -left-[41px] top-1 w-4 h-4 rounded-full bg-purple-500 border-4 border-[#0d0d1a]"></div>
+                        <div className="bg-[#1a1a2e] border border-gray-700 rounded-lg p-5">
+                            <h3 className="text-white font-bold text-lg mb-1">Higher Secondary (MPC)</h3>
+                            <p className="text-gray-400 text-sm mb-1">Sri Chaitanya Junior College</p>
+                            <p className="text-gray-500 text-sm mb-3">2021 – 2023</p>
+                            <p className="text-purple-400 font-bold">96.3%</p>
+                        </div>
+                    </div>
+                    <div className="relative">
+                        <div className="absolute -left-[41px] top-1 w-4 h-4 rounded-full bg-purple-500 border-4 border-[#0d0d1a]"></div>
+                        <div className="bg-[#1a1a2e] border border-gray-700 rounded-lg p-5">
+                            <h3 className="text-white font-bold text-lg mb-1">Secondary School Education</h3>
+                            <p className="text-gray-400 text-sm mb-1">Kendriya Vidyalaya</p>
+                            <p className="text-gray-500 text-sm mb-3">2021</p>
+                            <p className="text-purple-400 font-bold">93.2%</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
