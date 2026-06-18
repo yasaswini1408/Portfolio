@@ -155,7 +155,7 @@ function Projects(){
                     </div>
                 </div>
 
-                {/* project six*/}
+                {/* project six */}
                 <div className="bg-[#11111f] border border-gray-800 rounded-xl overflow-hidden">
                     <div className="bg-black">
                         <img
