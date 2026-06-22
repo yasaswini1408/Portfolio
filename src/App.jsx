@@ -6,6 +6,7 @@ import Projects from "./components/Projects.jsx"
 import Achievements from "./components/Achievements.jsx"
 import Certifications from "./components/Certifications.jsx"
 import Leadership from "./components/Leadership.jsx"
+import Contact from "./components/Contact.jsx"
 function App() {
   return(
     <div className="bg-[#0d0d1a] text-white min-h-screen pt-20">
@@ -17,7 +18,7 @@ function App() {
       <Achievements></Achievements>
       <Leadership></Leadership>
       <Certifications></Certifications>
-      {/* <Connect></Connect> */}
+      <Contact></Contact>
     </div>
   );
 }
