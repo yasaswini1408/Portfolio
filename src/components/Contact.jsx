@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaDownload } from "react-icons/fa"
+import {FaGithub,FaLinkedin,FaEnvelope,FaDownload} from "react-icons/fa"
 function Contact() {
     return (
         <footer className="px-10 py-16 border-t border-gray-800">
@@ -14,18 +14,15 @@ function Contact() {
                     </a>
                     <a href="https://www.linkedin.com/in/yasaswini-samala-8007022a6/"
                         target="_blank"
-                        rel="noopener noreferrer"
                         className="flex items-center gap-2 border border-gray-600 hover:border-purple-500 hover:text-purple-400 px-5 py-3 rounded-lg text-white transition duration-300">
                         <FaLinkedin /> LinkedIn
                     </a>
                     <a href="https://github.com/yasaswini1408"
                         target="_blank"
-                        rel="noopener noreferrer"
                         className="flex items-center gap-2 border border-gray-600 hover:border-purple-500 hover:text-purple-400 px-5 py-3 rounded-lg text-white transition duration-300">
                         <FaGithub /> GitHub
                     </a>
                     <a href="#"
-                        download
                         className="flex items-center gap-2 bg-green-600 hover:bg-green-700 px-5 py-3 rounded-lg text-white transition duration-300">
                         <FaDownload /> Resume
                     </a>
