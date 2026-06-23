@@ -17,7 +17,12 @@ function Certifications() {
                         <div className="p-4">
                             <p className="text-white font-semibold">Operating System Fundamentals (Elite)</p>
                             <p className="text-gray-400 text-sm mb-3">NPTEL</p>
-                            <button className="text-purple-400 text-sm">View Certificate ↗</button>
+                            <button onClick={() =>
+                                window.open(
+                                    "https://drive.google.com/file/d/1UjM9ongAozu-iqZapuQZnUObCMQ7nEGB/view?usp=sharing",
+                                    "_blank"
+                                )}
+                                className="text-purple-400 text-sm">View Certificate ↗</button>
                         </div>
                     </div>
 
@@ -32,7 +37,12 @@ function Certifications() {
                         <div className="p-4">
                             <p className="text-white font-semibold">Database Management Systems (Elite)</p>
                             <p className="text-gray-400 text-sm mb-3">NPTEL</p>
-                            <button className="text-purple-400 text-sm">View Certificate ↗</button>
+                            <button onClick={() =>
+                                window.open(
+                                    "https://drive.google.com/file/d/1gmqsp9obCibccN2NOJ4xmiOwwAgf9UwB/view?usp=sharing",
+                                    "_blank"
+                                )}
+                                className="text-purple-400 text-sm">View Certificate ↗</button>
                         </div>
                     </div>
 
@@ -47,7 +57,12 @@ function Certifications() {
                         <div className="p-4">
                             <p className="text-white font-semibold">Programming in Java (Elite)</p>
                             <p className="text-gray-400 text-sm mb-3">NPTEL</p>
-                            <button className="text-purple-400 text-sm">View Certificate ↗</button>
+                            <button onClick={() =>
+                                window.open(
+                                    "https://drive.google.com/file/d/1wOhR5yzU2_wOxArxiO7qjlORqUZF34UL/view?usp=sharing",
+                                    "_blank"
+                                )}
+                                className="text-purple-400 text-sm">View Certificate ↗</button>
                         </div>
                     </div>
 
@@ -66,7 +81,12 @@ function Certifications() {
                         <div className="p-4">
                             <p className="text-white font-semibold">Python Essentials 1 & 2</p>
                             <p className="text-gray-400 text-sm mb-3">Cisco</p>
-                            <button className="text-purple-400 text-sm">View Certificate ↗</button>
+                            <button onClick={() =>
+                                window.open(
+                                    "https://drive.google.com/file/d/1VxyPAPhnzvgIxxZJXEV-VJwrSCOmYPez/view?usp=sharing",
+                                    "_blank"
+                                )}
+                                className="text-purple-400 text-sm">View Certificate ↗</button>
                         </div>
                     </div>
 
@@ -81,7 +101,12 @@ function Certifications() {
                         <div className="p-4">
                             <p className="text-white font-semibold">Front End Web Developer</p>
                             <p className="text-gray-400 text-sm mb-3">Infosys Springboard</p>
-                            <button className="text-purple-400 text-sm">View Certificate ↗</button>
+                            <button onClick={() =>
+                                window.open(
+                                    "https://drive.google.com/file/d/1hEM22Y6QUr2pTdVPVuQ1JR5N6VGS8nGk/view?usp=sharing",
+                                    "_blank"
+                                )}
+                                className="text-purple-400 text-sm">View Certificate ↗</button>
                         </div>
                     </div>
 
