@@ -22,7 +22,8 @@ function Contact() {
                         className="flex items-center gap-2 border border-gray-600 hover:border-purple-500 hover:text-purple-400 px-5 py-3 rounded-lg text-white transition duration-300">
                         <FaGithub /> GitHub
                     </a>
-                    <a href="#"
+                    <a href="https://drive.google.com/file/d/1mNIiSl2BoAXcAxFX9MsaqqVoR3eq4q2Y/view?usp=sharing"
+                        target="_blank"
                         className="flex items-center gap-2 bg-green-600 hover:bg-green-700 px-5 py-3 rounded-lg text-white transition duration-300">
                         <FaDownload /> Resume
                     </a>

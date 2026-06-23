@@ -11,7 +11,9 @@ function Navbar() {
                 <a href="#certifications" className="text-gray-400 hover:text-purple-400 transition-colors">Certifications</a>
                 <a href="#contact" className="text-gray-400 hover:text-purple-400 transition-colors">Contact</a>
             </div>
-            <div className="border border-purple-500 text-purple-400 px-4 py-2 rounded-lg">Resume</div>
+            <div className="border border-purple-500 text-purple-400 px-4 py-2 rounded-lg">
+                <a href="https://drive.google.com/file/d/1mNIiSl2BoAXcAxFX9MsaqqVoR3eq4q2Y/view?usp=sharing" target="_blank">Resume</a>
+            </div>
         </nav>
     );
 }
