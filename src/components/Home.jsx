@@ -128,7 +128,7 @@ function Home() {
             <div className="grid grid-cols-4 gap-4 mt-12 border border-gray-700 rounded-xl p-6">
                 <div className="text-center flex items-center justify-center gap-3">
                     <div>
-                        <p className="text-2xl font-bold text-purple-400">10+</p>
+                        <p className="text-2xl font-bold text-purple-400">6+</p>
                         <p className="text-gray-400 text-xs">Projects Built</p>
                     </div>
                 </div>
