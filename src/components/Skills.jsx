@@ -1,6 +1,6 @@
 import { SiCplusplus, SiC, SiPython, SiHtml5, SiJavascript, SiCss, SiReact, SiExpress, SiNodedotjs, SiMongodb, SiMysql, SiGit, SiGithub, SiPostman, SiFigma, SiVercel } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
-
+import { FaJava } from "react-icons/fa";
 function Skills() {
     return (
         <section className="px-10 py-16 border-t border-gray-800">
@@ -20,9 +20,9 @@ function Skills() {
                             <span className="bg-[#1a1a2e] border border-gray-700 px-3 py-2 rounded-lg text-sm inline-flex items-center gap-2">
                                 <SiPython />Python
                             </span>
-                            {/* <span className="bg-[#1a1a2e] border border-gray-700 px-3 py-2 rounded-lg text-sm inline-flex items-center gap-2">
-                                <SiJava /> Java
-                            </span> */}
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-3 py-2 rounded-lg text-sm inline-flex items-center gap-2">
+                                <FaJava /> Java
+                            </span>
                         </div>
                     </div>
 
