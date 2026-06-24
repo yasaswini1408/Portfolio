@@ -28,7 +28,7 @@ function About() {
                         </div>
                         <div className="bg-[#1a1a2e] border border-gray-700 rounded-lg p-4">
                             <p className="text-gray-400 text-sm">CGPA</p>
-                            <p className="text-white font-bold">9.26</p>
+                            <p className="text-white font-bold">9.32</p>
                         </div>
                         <div className="bg-[#1a1a2e] border border-gray-700 rounded-lg p-4">
                             <p className="text-gray-400 text-sm">Focus</p>

@@ -1,4 +1,4 @@
-import { SiCplusplus, SiC, SiPython, SiJavascript, SiHtml5, SiCss, SiReact, SiExpress, SiNodedotjs, SiMongodb, SiMysql, SiGit, SiGithub, SiPostman, SiFigma, SiVercel } from "react-icons/si";
+import { SiCplusplus, SiC, SiPython, SiJava, SiHtml5, SiCss, SiReact, SiExpress, SiNodedotjs, SiMongodb, SiMysql, SiGit, SiGithub, SiPostman, SiFigma, SiVercel } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
 function Skills() {
@@ -21,7 +21,7 @@ function Skills() {
                                 <SiPython />Python
                             </span>
                             <span className="bg-[#1a1a2e] border border-gray-700 px-3 py-2 rounded-lg text-sm inline-flex items-center gap-2">
-                                <SiJavascript />Javascript
+                                <SiJava /> Java
                             </span>
                         </div>
                     </div>
