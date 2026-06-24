@@ -1,4 +1,4 @@
-import { SiCplusplus, SiC, SiPython, SiHtml5, SiJavascript, SiCss, SiReact, SiExpress, SiNodedotjs, SiMongodb, SiMysql, SiGit, SiGithub, SiPostman, SiFigma, SiVercel } from "react-icons/si";
+import { SiCplusplus, SiC, SiPython, SiHtml5, SiCss, SiReact, SiJavascript, SiTailwindcss, SiExpress, SiNodedotjs, SiMongodb, SiMysql, SiGit, SiGithub, SiPostman, SiFigma, SiVercel } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { FaJava } from "react-icons/fa";
 function Skills() {
@@ -40,6 +40,9 @@ function Skills() {
                             </span>
                             <span className="bg-[#1a1a2e] border border-gray-700 px-3 py-2 rounded-lg text-sm inline-flex items-center gap-2">
                                 <SiJavascript />Javascript
+                            </span>
+                            <span className="bg-[#1a1a2e] border border-gray-700 px-3 py-2 rounded-lg text-sm inline-flex items-center gap-2">
+                                <SiTailwindcss />Tailwind CSS
                             </span>
                         </div>
                     </div>
