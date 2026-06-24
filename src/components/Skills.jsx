@@ -1,4 +1,4 @@
-import { SiCplusplus, SiC, SiPython, SiJava, SiHtml5, SiCss, SiReact, SiExpress, SiNodedotjs, SiMongodb, SiMysql, SiGit, SiGithub, SiPostman, SiFigma, SiVercel } from "react-icons/si";
+import { SiCplusplus, SiC, SiPython, SiJava, SiHtml5, SiJavascript, SiCss, SiReact, SiExpress, SiNodedotjs, SiMongodb, SiMysql, SiGit, SiGithub, SiPostman, SiFigma, SiVercel } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
 function Skills() {
