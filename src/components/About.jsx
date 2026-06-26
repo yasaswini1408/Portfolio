@@ -46,7 +46,7 @@ function About() {
                                     <h3 className="text-white font-bold text-sm">B.Tech in Computer Science</h3>
                                     <p className="text-gray-400 text-xs">Vignan's Institute of Information Technology</p>
                                 </div>
-                                <span className="text-purple-400 font-bold text-xs ml-2 whitespace-nowrap">CGPA: 9.26</span>
+                                <span className="text-purple-400 font-bold text-xs ml-2 whitespace-nowrap">CGPA: 9.32</span>
                             </div>
                             <p className="text-gray-500 text-xs mt-1">2023 – Present</p>
                         </div>
