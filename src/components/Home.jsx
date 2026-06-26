@@ -104,7 +104,7 @@ function Home() {
                 </div>
 
                 <div className="bg-[#1a1a2e] border border-gray-700 rounded-xl p-6 font-mono text-sm">
-                    <p className="text-yellow-400">yasaswini@developer:~$</p>
+                    <p className="text-yellow-400">yasaswini@developer:</p>
                     <div className="mt-4">
                         <span className="text-green-400">&gt; whoami</span>
                         <p className="text-white">A passionate learner</p>
